@@ -1,0 +1,15 @@
+<h2>Add Product to Cart</h2>
+<table>
+    <tr>
+    <td>Book Id</td>
+    <td><input type="text" [(ngModel)]="product.BookID"></td>
+    </tr>
+        
+    <tr>
+        <td>Order Quantity</td>
+        <td><input type="text"[(ngModel)="product.orderQuantity"></td>]
+            </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" value="Add Product To cart" (click)="AddProductToCart()"></td>
+        </tr>
